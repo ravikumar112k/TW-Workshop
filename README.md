@@ -3,11 +3,11 @@ An adaptive AI-driven learning platform for enterprises that automates curriculu
 
 # TW Workshop
 
-## 📌 Overview
+Overview
 TW Workshop is a **Streamlit-based learning management and training platform** designed for workshops.  
 It provides role-specific dashboards for **Admins, Staff, and Students** to manage courses, tests, and user data efficiently.
 
-## 🚀 Features
+Features
 - **Admin Dashboard** (`admin_dashboard.py`): Manage courses, users, and platform settings.
 - **Staff Dashboard** (`staff_dashboard.py`): Track student progress and manage uploaded content.
 - **Student Access** (`Signup_Login.py`, `coursepage.py`): Students can sign up, log in, and access course materials.
@@ -15,7 +15,7 @@ It provides role-specific dashboards for **Admins, Staff, and Students** to mana
 - **Environment Variables**: `.env` file for secure configuration management.
 - **Sample Data Setup**: Scripts like `setup_db.py`, `setup_students.py`, and `insert_samples.py` help initialize the database with test data.
 
-## 📂 Project Structure
+Project Structure
 ```
 TW_Workshop/
 └── TW Workshop/
@@ -34,7 +34,7 @@ TW_Workshop/
     │   └── test.py
 ```
 
-## 🛠️ Installation & Setup
+Installation & Setup
 1. Clone the repository or extract the project zip:
    ```bash
    git clone <your-repo-url>
@@ -71,7 +71,7 @@ TW_Workshop/
    python insert_samples.py
    ```
 
-## ▶️ Running the App
+Running the App
 To run specific dashboards:
 ```bash
 streamlit run Signup_Login.py
@@ -80,17 +80,18 @@ streamlit run staff_dashboard.py
 streamlit run coursepage.py
 ```
 
-## ✅ Usage
+Usage
 - **Admins**: Use `admin_dashboard.py` to manage platform settings.  
 - **Staff**: Use `staff_dashboard.py` to track student progress and manage uploads.  
 - **Students**: Use `Signup_Login.py` to register/login and access `coursepage.py`.  
 
-## 📌 Notes
+Notes
 - Ensure `.env` is properly configured.  
 - Use `users.db` and `catalog.db` for persistent data.  
 - Old files like `old_coursepage.py` are for reference only.  
 
 ---
-💡 *This project is intended for training/workshop purposes. Extend features as per requirements.*
+*This project is intended for training/workshop purposes. Extend features as per requirements.*
+
 
 
